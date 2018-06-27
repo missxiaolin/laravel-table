@@ -41,7 +41,7 @@ trait TableShard {
      * @param  string  $localKey
      * @return \Illuminate\Database\Eloquent\Relations\HasOne
      */
-    public function hasOne($related, $foreignKey = null, $localKey = null)
+    public function haveOne($related, $foreignKey = null, $localKey = null)
     {
         $model          = new $related();
         $tableName      = $this->getShardTable();

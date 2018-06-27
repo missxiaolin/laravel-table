@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b5a30bf-327d-4d3d-bca9-9a195c5b4a66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/TableShard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/TableShard.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +15,17 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TableShard.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -37,8 +46,8 @@
         <option value="$PROJECT_DIR$/config/table_shard.php" />
         <option value="$PROJECT_DIR$/src/TableShardProvider.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Traits/TableShard.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Traits/TableShard.php" />
       </list>
     </option>
   </component>
@@ -212,12 +221,12 @@
       <workItem from="1529672265673" duration="161000" />
       <workItem from="1529712648988" duration="167000" />
       <workItem from="1530065333015" duration="5981000" />
-      <workItem from="1530076417387" duration="5560000" />
+      <workItem from="1530076417387" duration="6290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14244000" />
+    <option name="totallyTimeSpent" value="14974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -322,13 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -343,6 +345,13 @@
             <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
         </state>
       </provider>
     </entry>
