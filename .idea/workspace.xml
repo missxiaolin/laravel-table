@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b5a30bf-327d-4d3d-bca9-9a195c5b4a66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TableShardProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/TableShardProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Traits/TableShard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/TableShard.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="46" />
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -248,12 +245,12 @@
       <workItem from="1529666381599" duration="352000" />
       <workItem from="1529672265673" duration="161000" />
       <workItem from="1529712648988" duration="167000" />
-      <workItem from="1530065333015" duration="2974000" />
+      <workItem from="1530065333015" duration="3029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5677000" />
+    <option name="totallyTimeSpent" value="5732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -349,7 +346,7 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="46" />
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>

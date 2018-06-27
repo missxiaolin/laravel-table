@@ -1,6 +1,6 @@
 {
     "name": "xiaolin/laravel-table",
-    "description": "queue library for swoole",
+    "description": "laravel table shard compents",
     "type": "library",
     "license": "MIT",
     "authors": [
