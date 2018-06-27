@@ -19,8 +19,8 @@
       <file leaf-file-name="TableShard.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+            <state relative-caret-position="375">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -221,12 +221,12 @@
       <workItem from="1529672265673" duration="161000" />
       <workItem from="1529712648988" duration="167000" />
       <workItem from="1530065333015" duration="5981000" />
-      <workItem from="1530076417387" duration="6290000" />
+      <workItem from="1530076417387" duration="6374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14974000" />
+    <option name="totallyTimeSpent" value="15058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -350,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+        <state relative-caret-position="375">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
         </state>
       </provider>
     </entry>

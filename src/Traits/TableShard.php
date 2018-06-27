@@ -12,25 +12,29 @@ namespace OkamiChen\TableShard\Traits;
 trait TableShard {
 
     /**
-     * 分表数量,最好为8的倍数
-     * @var int
+     * 分表数量,建议为8的倍数
+     * @return int
      */
-    public $shardNum    = 8;
+    public function getShardNum(){
+        return 8;
+    }
 
     /**
      * 根据那个表取余
-     * @var string
+     * @return string
      */
-    public $shardKey    = 'id';
+    public function getShardKey(){
+        return 'id';
+    }
 
     /**
      * 按照指定的数字取余数
      * @return string
      */
     public function getShardTable(){
-        $key    = $this->shardKey;
+        $key    = $this->getShardKey();
         $value  = $this->$key;
-        return $this->table.'_'. sprintf('%02d', $value % $this->shardNum);
+        return $this->table.'_'. sprintf('%02d', $value % $this->getShardNum());
     }
 
     /**
