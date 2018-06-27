@@ -19,20 +19,8 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TableShardProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TableShardProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-              <folding>
-                <element signature="e#121#186#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -40,8 +28,29 @@
       <file leaf-file-name="TableShard.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableShardModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/TableShardModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableShardProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TableShardProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#121#186#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +60,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>extra</find>
+      <find>laravel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -245,12 +255,12 @@
       <workItem from="1529666381599" duration="352000" />
       <workItem from="1529672265673" duration="161000" />
       <workItem from="1529712648988" duration="167000" />
-      <workItem from="1530065333015" duration="3029000" />
+      <workItem from="1530065333015" duration="5608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5732000" />
+    <option name="totallyTimeSpent" value="8311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -298,13 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/TableShardModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/table_shard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -326,27 +329,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/TableShardModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TableShardProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="420">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#121#186#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Traits/TableShard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        <state relative-caret-position="360">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
