@@ -9,11 +9,8 @@
 namespace OkamiChen\TableShard\Traits;
 
 use Illuminate\Database\Eloquent\Relations\HasOne;
-use OkamiChen\TableShard\Database\Eloquent\Builder;
-use OkamiChen\TableShard\Database\Query\Builder as Query;
 
 trait TableShard {
-
 
     protected $tableShard   = true;
 
@@ -91,8 +88,27 @@ trait TableShard {
         $conn       = $query->getConnection();
         $grammar    = $query->getGrammar();
         $processor  = $query->getProcessor();
-        $builder    = new Query($conn, $grammar, $processor);
-        return new Builder($builder);
+        $query      = $this->getConfigQuery();
+        $query      = new $query($conn, $grammar, $processor);
+        $builder    = $this->getConfigBuilder();
+        return new $builder($query);
+    }
+
+    /**
+     *
+     * @return \OkamiChen\TableShard\Database\Query\Builder
+     */
+    protected function getConfigQuery(){
+        $class      = \OkamiChen\TableShard\Database\Query\Builder::class;
+        return config('table_shard.query', $class);
+    }
+    /**
+     * 自定义
+     * @return \OkamiChen\TableShard\Database\Eloquent\Builder
+     */
+    protected function getConfigBuilder(){
+        $class      = \OkamiChen\TableShard\Database\Eloquent\Builder::class;
+        return config('table_shard.builder', $class);
     }
     /**
      * Define a one-to-one relationship.
