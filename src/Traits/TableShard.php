@@ -57,6 +57,8 @@ trait TableShard {
 
     /**
      * 分表规则
+     * @param null $value
+     * @return string
      */
     public function getShardTable($value=null){
         $key    = $this->getShardKey();
