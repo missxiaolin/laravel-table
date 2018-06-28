@@ -14,12 +14,16 @@ trait TableShard {
 
     protected $tableShard   = true;
 
+    /**
+     * 是否启用分表支持
+     * @return boolean
+     */
     public function isTableShard(){
         return $this->tableShard;
     }
 
     /**
-     * 是否支持分片
+     * 启用分表
      * @return boolean
      */
     public function enableTableShard(){
@@ -28,7 +32,7 @@ trait TableShard {
     }
 
     /**
-     * 禁用分片
+     * 禁用分表
      */
     public function disableTableShard(){
         $this->tableShard   = false;
@@ -36,7 +40,7 @@ trait TableShard {
     }
 
     /**
-     * 分表数量,最好为8的倍数
+     * 分表个数
      * @return int
      */
     public function getShardNum(){
@@ -44,32 +48,15 @@ trait TableShard {
     }
 
     /**
-     * 根据那个表取余
+     * 分表参考键
      * @return string
      */
     public function getShardKey(){
         return 'id';
     }
 
-    protected $step = 1;
     /**
-     * Handle dynamic method calls into the model.
-     *
-     * @param  string  $method
-     * @param  array  $parameters
-     * @return mixed
-     */
-    public function __call($method, $parameters)
-    {
-        if (in_array($method, ['increment', 'decrement'])) {
-            return $this->$method(...$parameters);
-        }
-        $query  = $this->newQuery();
-        return $query->$method(...$parameters);
-    }
-
-    /**
-     * 按照指定的数字取余数
+     * 分表规则
      */
     public function getShardTable($value=null){
         $key    = $this->getShardKey();
@@ -78,9 +65,9 @@ trait TableShard {
     }
 
     /**
-     * Create a new Eloquent query builder for the model.
+     * 自定义模型查询
      *
-     * @param  \Illuminate\Database\Query\Builder  $query
+     * @param  \OkamiChen\TableShard\Database\Query\Builder  $query
      * @return \OkamiChen\TableShard\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query)
@@ -102,16 +89,18 @@ trait TableShard {
         $class      = \OkamiChen\TableShard\Database\Query\Builder::class;
         return config('table_shard.query', $class);
     }
+
     /**
-     * 自定义
+     *
      * @return \OkamiChen\TableShard\Database\Eloquent\Builder
      */
     protected function getConfigBuilder(){
         $class      = \OkamiChen\TableShard\Database\Eloquent\Builder::class;
         return config('table_shard.builder', $class);
     }
+
     /**
-     * Define a one-to-one relationship.
+     * 自定义一对一模型
      *
      * @param  string  $related
      * @param  string  $foreignKey
