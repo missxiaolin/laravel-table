@@ -27,11 +27,9 @@
         "phpunit/phpunit": ">=5.6",
         "laravel/framework": "5.5.*"
     },
-    "suggests": [
-        {
-            "tamayo/laravel-scout-elastic": "An Elasticsearch Client"
-        }
-    ],
+    "suggests": {
+        "tamayo/laravel-scout-elastic": "An Elasticsearch Client"
+    },
     "extra": {
         "laravel": {
             "providers": [
