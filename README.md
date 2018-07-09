@@ -1,7 +1,13 @@
 # laravel-table
 Laravel Table Sharding
 
-## 注入
+### 安装
+
+```
+composer xialin/table
+```
+
+### 注入
 ```php
 'providers' => [
 
